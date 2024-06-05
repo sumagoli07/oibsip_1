@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Temperature Converter</title>
+<link rel="stylesheet" href="styletemp.css">
+</head>
+<body>
+    <div>
+        <h1>Temperature Converter</h1>
+        <p class="container">
+        <font size="4"><i>  Input C:</i></font>
+         <input type="number" id="c">
+         <button onClick="convertToFahrenheit()">ConvertF</button>
+        </p>
+      <p class="container">
+      <font size="4"><i>  Input F:</i></font> 
+      <input type="number" id="f">
+      <button onClick="convertToCelsius()">ConvertC</button>
+      </p>
+      <br>
+    </div>
+<script>
+function convertToFahrenheit()
+{
+if(document.getElementById("c").value.length==0)
+alert("celsius field cannot be empty");
+celsius=parseFloat(document.getElementById("c").value);
+fahrenheit=(celsius*9/5)+32;
+document.getElementById("f").value=fahrenheit;
+}
+function convertToCelsius()
+{
+if(document.getElementById("f").value.length==0)
+alert("farenheit field cannot be empty");
+fahrenheit=parseFloat(document.getElementById("f").value);
+celsius=(fahrenheit-32)*5/9;
+document.getElementById("c").value=celsius;
+}
+</script>
+</body>
+</html>
