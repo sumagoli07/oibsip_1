@@ -1,0 +1,145 @@
+.one{
+    height:100vh;
+    width:30%;
+    background-color:9BB0C1;
+    float:left;
+
+}
+.two{
+    height:100vh;
+    width:70%;
+    background-color:B5C0D0;
+    float: right;
+}
+img{
+    height:100px;
+    width: 100px;
+    margin-top:27px;
+    padding-left: 175px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info{
+    height:40px;
+    width:110px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 165px;
+    text-align: center;
+    margin-top: 25px;
+    line-height:normal;
+    transition-property: all;
+}
+.info:hover{
+    background-color:#7AA2E3;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-left: 10px;
+}
+.about{
+    height:85px;
+    width:500px;
+    margin-left: 25px;
+    font-size:large;
+    transition-property:all;
+}
+.about:hover{
+    border:3px solid black;
+    border-radius:10px;
+}
+.contactinfo{
+    height:70px;
+    width:280px;
+    margin-left:600px;
+    margin-top: -140px;
+    font-size:large;
+    transition-property:all;
+}
+.contactinfo:hover{
+    border:3px solid #9BB0C1;
+    border-radius:10px;
+}
+.educational{
+    height: 150px;
+    width: 150px;
+    margin-top:90px;
+}
+.education{
+    height:90px;
+    width:430px;
+    margin-left:340px;
+    margin-top:-130px;
+    font-size:large;
+    transition-property:all;
+}   
+.education:hover{
+    border:3px solid gray;
+    border-radius: 10px;
+}
+.achievements{
+    height:130px ;
+    width: 650px;
+    margin-left:25px;
+    font-size:large;
+    margin-top: 70px;
+    transition-property:all;
+}
+.achievements:hover{
+    border:3px solid #756AB6;
+    border-radius:10px;
+}
+.achieve{
+    height:150px;
+    width:150px;
+    margin-left:525px;
+    margin-top:-130px;
+}
+.skillimg{
+    height:165px;
+    width:165px;
+    margin-left:-150px;
+    margin-top:5px;
+}
+.skills{
+    height:90px ;
+    width: 350px;
+    margin-left:193px;
+    font-size:large;
+    margin-top:-135px;
+    transition-property: all;
+}
+.skills:hover{
+    border:3px solid #704264;
+    border-radius:10px;
+}
+.hobby{
+    height:150px;
+    width:150px;
+    margin-left:450px;
+    margin-top: -110px;
+}
+.hobbies{
+    height:90px;
+    width:200px;
+    margin-left:780px;
+    margin-top:-135px;
+    font-size:large;
+    transition-property: all;
+}
+.hobbies:hover{
+    border:3px solid #1679AB;
+    border-radius:10px;
+}
+    
+
+  
