@@ -1,0 +1,33 @@
+body{
+    height:auto;
+    background-image: url("temp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+b{
+font-size:20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:20px;
+    padding-left:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+i{
+    background-color: rgb(101, 98, 98);
+    color: white;
+}
+#f{
+    font-size:medium;
+    color:rgb(5, 40, 97);
+}
+#c{
+    font-size:medium;
+    color:rgb(5, 40, 97);
+}
